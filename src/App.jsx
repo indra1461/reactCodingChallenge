@@ -1,6 +1,6 @@
 import React from "react";
 import Counter from "./challenges/01-counter/Counter";
-
+import TodoList from "./challenges/02-todo/TodoList";
 const App = () => {
   return (
     <>
@@ -8,6 +8,7 @@ const App = () => {
       <hr />
       <Counter />
       <hr />
+      <TodoList />
       <hr />
       <hr />
       <hr />
