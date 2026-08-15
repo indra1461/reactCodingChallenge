@@ -11,8 +11,8 @@
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -65,6 +65,10 @@ body {
   flex-direction: column;
   box-sizing: border-box;
 }
+.active {
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
 
 h1,
 h2 {
@@ -93,6 +97,16 @@ h2 {
 }
 p {
   margin: 0;
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-color: #000;
+  border-width: 1px;
 }
 
 code,
