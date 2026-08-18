@@ -8,6 +8,7 @@ import Tabs from "./challenges/06-tabs/Tabs";
 import Modal from "./challenges/07-modal/Modal";
 import CharcterCount from "./challenges/08-characterCount/CharcterCount";
 import UserForm from "./challenges/09-UserForm/UserForm";
+import TableSorting from "./challenges/10-tableSorting/TableSorting";
 const App = () => {
   return (
     <>
@@ -31,6 +32,7 @@ const App = () => {
       <hr />
       <UserForm />
       <hr />
+      <TableSorting />
       <hr />
       <hr />
       <hr />
