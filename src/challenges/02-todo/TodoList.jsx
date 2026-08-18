@@ -49,7 +49,7 @@ const todoList = () => {
   };
   return (
     <div>
-      <h2>CRUD TODO LIST</h2>
+      <h2>Challenge 02 - CRUD TODO LIST</h2>
       <input
         type="text"
         placeholder="Enter todo.."

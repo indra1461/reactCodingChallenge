@@ -26,7 +26,7 @@ const Accordion = () => {
   };
   return (
     <div>
-      <h2>Accordion FAQ's</h2>
+      <h2>Challenge 05 - Accordion FAQ's</h2>
 
       {faqs.map((f) => (
         <div id={f.id}>

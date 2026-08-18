@@ -17,7 +17,7 @@ const SearchTable = () => {
   );
   return (
     <div>
-      <h2>Search Table </h2>
+      <h2>Challenge 03 - Search Table </h2>
       <input
         type="text"
         placeholder="search Users by name or email..."

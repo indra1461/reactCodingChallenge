@@ -23,7 +23,7 @@ const Tabs = () => {
   };
   return (
     <div>
-      <h2>Tabs</h2>
+      <h2>Challenge 06 - Tabs</h2>
       {tabs.map((tab) => (
         <span
           id={tab.id}

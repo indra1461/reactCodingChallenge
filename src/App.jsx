@@ -7,6 +7,7 @@ import Accordion from "./challenges/05-accordion/Accordion";
 import Tabs from "./challenges/06-tabs/Tabs";
 import Modal from "./challenges/07-modal/Modal";
 import CharcterCount from "./challenges/08-characterCount/CharcterCount";
+import UserForm from "./challenges/09-UserForm/UserForm";
 const App = () => {
   return (
     <>
@@ -27,6 +28,21 @@ const App = () => {
       <Modal />
       <hr />
       <CharcterCount />
+      <hr />
+      <UserForm />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+      <hr />
       <hr />
     </>
   );

@@ -18,7 +18,7 @@ const Modal = () => {
   }, []);
   return (
     <div>
-      <h2>Modal</h2>
+      <h2>Challenge 07 - Modal</h2>
       <button onClick={modalHandle}>Open ModalBox</button>
       {isOpen === true ? (
         <div className="overlay" onClick={() => setIsOpen(false)}>

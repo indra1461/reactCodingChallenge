@@ -9,7 +9,7 @@ const PasswordToggle = () => {
   };
   return (
     <div>
-      <h2>Password Toggle</h2>
+      <h2>Challenge 04 - Password Toggle</h2>
       <input
         type={toggle === false ? "password" : "text"}
         placeholder="Enter Password"

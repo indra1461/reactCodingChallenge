@@ -16,7 +16,7 @@ const Counter = () => {
 
   return (
     <div>
-      <h2>Counter App</h2>
+      <h2>Challenge 01 - Counter App</h2>
 
       <h3>{counter}</h3>
       <button onClick={increment}>Increment</button>

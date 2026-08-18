@@ -8,7 +8,7 @@ const CharcterCount = () => {
 
   return (
     <div>
-      <h2>Character Count</h2>
+      <h2>Challenge 08 - Character Count</h2>
       <textarea
         value={value}
         onChange={(e) => setValue(e.target.value)}
