@@ -23,8 +23,10 @@ const Modal = () => {
       {isOpen === true ? (
         <div className="overlay" onClick={() => setIsOpen(false)}>
           <div className="modal" onClick={(e) => e.stopPropagation()}>
-            <button onClick={modalHandle}>X</button>
-            <p>modal header</p>
+            <p onClick={modalHandle} className="close">
+              X
+            </p>
+            <b>modal header</b>
             <p>modal content</p>
             <p>modal footer</p>
           </div>
