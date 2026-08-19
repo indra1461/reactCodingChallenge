@@ -10,6 +10,7 @@ import CharcterCount from "./challenges/08-characterCount/CharcterCount";
 import UserForm from "./challenges/09-UserForm/UserForm";
 import TableSorting from "./challenges/10-tableSorting/TableSorting";
 import Pagination from "./challenges/11 - pagination/Pagination";
+import DebounceSearch from "./challenges/12 - debounceSearch/DebounceSearch";
 const App = () => {
   return (
     <>
@@ -37,6 +38,7 @@ const App = () => {
       <hr />
       <Pagination />
       <hr />
+      <DebounceSearch />
       <hr />
       <hr />
       <hr />
