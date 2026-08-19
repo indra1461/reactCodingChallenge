@@ -11,6 +11,7 @@ import UserForm from "./challenges/09-UserForm/UserForm";
 import TableSorting from "./challenges/10-tableSorting/TableSorting";
 import Pagination from "./challenges/11 - pagination/Pagination";
 import DebounceSearch from "./challenges/12 - debounceSearch/DebounceSearch";
+import ApiFetchRetry from "./challenges/13 - ApiFetchRetry/ApiFetchRetry";
 const App = () => {
   return (
     <>
@@ -40,6 +41,7 @@ const App = () => {
       <hr />
       <DebounceSearch />
       <hr />
+      <ApiFetchRetry />
       <hr />
       <hr />
       <hr />
